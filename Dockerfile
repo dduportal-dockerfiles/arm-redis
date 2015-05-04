@@ -10,5 +10,4 @@ WORKDIR /data
 EXPOSE 6379
 USER redis
 
-ENTRYPOINT ["/usr/bin/redis-server"]
-CMD []
+CMD ["/usr/bin/redis-server"]
